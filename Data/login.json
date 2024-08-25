@@ -1,0 +1,22 @@
+[
+  {"description":"login successful",
+    "user id": "admin",
+    "password": "123456",
+    "expect": "login successful"
+  },
+  {"description":"wrong user name",
+    "user id": "wrong",
+    "password": "123456",
+    "expect": "login failed"
+  },
+  {"description":"wrong password",
+    "user id": "admin",
+    "password": "123123",
+    "expect": "login failed"
+  },
+  {"description":"both info password",
+    "user id": "wrong",
+    "password": "123123",
+    "expect": "login failed"
+  }
+]
