@@ -15,6 +15,9 @@ def build_data():
         return my_list
 
 
+print(build_data())
+
+
 
 
 
